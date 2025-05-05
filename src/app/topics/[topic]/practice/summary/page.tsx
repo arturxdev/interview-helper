@@ -17,13 +17,13 @@ export default function SummaryPage() {
 
   let message = "";
   if (accuracy >= 90) {
-    message = "Outstanding! You've mastered this topic.";
+    message = "Outstanding! You&apos;ve mastered this topic.";
   } else if (accuracy >= 70) {
     message = "Great job! You have a solid understanding.";
   } else if (accuracy >= 50) {
-    message = "Good effort. With some practice, you'll improve.";
+    message = "Good effort. With some practice, you&apos;ll improve.";
   } else {
-    message = "Keep practicing. You'll get better with time.";
+    message = "Keep practicing. You&apos;ll get better with time.";
   }
 
   return (
@@ -34,7 +34,7 @@ export default function SummaryPage() {
         <div className="text-center mb-10">
           <h1 className="text-3xl font-bold mb-2">Practice Summary</h1>
           <p className="text-gray-600">
-            Here's how you did on the {topic} questions
+            Here&apos;s how you did on the {topic} questions
           </p>
         </div>
 

@@ -2,8 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
-import { LanguageSwitcher } from "@/components/language-switcher";
 import { useLanguage } from "@/i18n/context";
 import { SiteHeader } from "@/components/site-header";
 import { Topic } from "@/components/topic";
