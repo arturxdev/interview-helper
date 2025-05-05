@@ -1,0 +1,90 @@
+{
+  "header": {
+    "topics": "Topics",
+    "signIn": "Sign In"
+  },
+  "hero": {
+    "subtitle": "Interview Preparation Simplified",
+    "title": "Prepare for tech interviews more effectively",
+    "description": "A beautiful, intuitive platform for practicing interview questions. Prepare for technical interviews with targeted questions and detailed explanations.",
+    "viewTopics": "View Topics",
+    "startPractice": "Start Practice"
+  },
+  "topics": {
+    "title": "Choose a Topic",
+    "subtitle": "Select a category to practice interview questions",
+    "javascript": {
+      "title": "JavaScript",
+      "description": "Core JavaScript concepts and language features"
+    },
+    "react": {
+      "title": "React",
+      "description": "React components, hooks, and state management"
+    },
+    "css": {
+      "title": "CSS",
+      "description": "Styling, layout, and responsive design"
+    },
+    "html": {
+      "title": "HTML",
+      "description": "Semantic markup and accessibility"
+    },
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Type systems, interfaces, and advanced typing"
+    },
+    "python": {
+      "title": "Python",
+      "description": "Python programming language and its features"
+    },
+    "startPractice": "Start Practice"
+  },
+  "features": {
+    "title": "Features designed for success",
+    "subtitle": "Our platform makes interview preparation straightforward and effective.",
+    "topicBasedPractice": {
+      "title": "Topic-Based Practice",
+      "description": "Practice questions organized by language, framework, and concept with detailed explanations."
+    },
+    "difficultyLevels": {
+      "title": "Difficulty Levels",
+      "description": "Questions categorized by difficulty to gradually build your skills and confidence."
+    },
+    "detailedExplanations": {
+      "title": "Detailed Explanations",
+      "description": "Understand the reasoning behind answers with thorough explanations and code examples."
+    },
+    "progressTracking": {
+      "title": "Progress Tracking",
+      "description": "Monitor your improvement over time and focus on areas needing additional practice."
+    },
+    "audioExplanations": {
+      "title": "Audio Explanations",
+      "description": "Listen to explanations to reinforce learning and accommodate different learning styles."
+    },
+    "performanceAnalytics": {
+      "title": "Performance Analytics",
+      "description": "Gain insights into your strengths and weaknesses with built-in performance analytics."
+    }
+  },
+  "practice": {
+    "startPractice": "Start Practice",
+    "comingSoon": "Coming Soon"
+  },
+  "back": {
+    "home": "Back to Home",
+    "topics": "Back to Topics"
+  },
+  "cta": {
+    "title": "Ready to ace your next interview?",
+    "description": "Start practicing with targeted questions and improve your technical interview skills today.",
+    "startPracticing": "Start Practicing"
+  },
+  "footer": {
+    "builtWith": "Built with love by"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "es": "Spanish"
+  }
+} 

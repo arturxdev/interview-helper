@@ -1,0 +1,90 @@
+{
+  "header": {
+    "topics": "Temas",
+    "signIn": "Iniciar Sesión"
+  },
+  "hero": {
+    "subtitle": "Preparación para Entrevistas Simplificada",
+    "title": "Prepárate para entrevistas técnicas más efectivamente",
+    "description": "Una plataforma hermosa e intuitiva para practicar preguntas de entrevista. Prepárate para entrevistas técnicas con preguntas específicas y explicaciones detalladas.",
+    "viewTopics": "Ver Temas",
+    "startPractice": "Comenzar Práctica"
+  },
+  "topics": {
+    "title": "Elige un Tema",
+    "subtitle": "Selecciona una categoría para practicar preguntas de entrevista",
+    "javascript": {
+      "title": "JavaScript",
+      "description": "Conceptos básicos de JavaScript y características del lenguaje"
+    },
+    "react": {
+      "title": "React",
+      "description": "Componentes de React, hooks y gestión de estado"
+    },
+    "css": {
+      "title": "CSS",
+      "description": "Estilos, diseño y diseño responsivo"
+    },
+    "html": {
+      "title": "HTML",
+      "description": "Marcado semántico y accesibilidad"
+    },
+    "typescript": {
+      "title": "TypeScript",
+      "description": "Sistemas de tipos, interfaces y tipado avanzado"
+    },
+    "python": {
+      "title": "Python",
+      "description": "Lenguaje de programación Python y sus características"
+    },
+    "startPractice": "Comenzar Práctica"
+  },
+  "features": {
+    "title": "Características diseñadas para el éxito",
+    "subtitle": "Nuestra plataforma hace que la preparación para entrevistas sea sencilla y efectiva.",
+    "topicBasedPractice": {
+      "title": "Práctica por Temas",
+      "description": "Preguntas de práctica organizadas por lenguaje, framework y concepto con explicaciones detalladas."
+    },
+    "difficultyLevels": {
+      "title": "Niveles de Dificultad",
+      "description": "Preguntas categorizadas por dificultad para construir gradualmente tus habilidades y confianza."
+    },
+    "detailedExplanations": {
+      "title": "Explicaciones Detalladas",
+      "description": "Comprende el razonamiento detrás de las respuestas con explicaciones completas y ejemplos de código."
+    },
+    "progressTracking": {
+      "title": "Seguimiento de Progreso",
+      "description": "Monitorea tu mejora a lo largo del tiempo y enfócate en áreas que necesitan práctica adicional."
+    },
+    "audioExplanations": {
+      "title": "Explicaciones en Audio",
+      "description": "Escucha explicaciones para reforzar el aprendizaje y acomodar diferentes estilos de aprendizaje."
+    },
+    "performanceAnalytics": {
+      "title": "Análisis de Rendimiento",
+      "description": "Obtén información sobre tus fortalezas y debilidades con análisis de rendimiento integrado."
+    }
+  },
+  "practice": {
+    "startPractice": "Comenzar Práctica",
+    "comingSoon": "Próximamente"
+  },
+  "back": {
+    "home": "Volver a Inicio",
+    "topics": "Volver a Temas"
+  },
+  "cta": {
+    "title": "¿Listo para destacar en tu próxima entrevista?",
+    "description": "Comienza a practicar con preguntas específicas y mejora tus habilidades para entrevistas técnicas hoy.",
+    "startPracticing": "Comenzar a Practicar"
+  },
+  "footer": {
+    "builtWith": "Creado con amor por"
+  },
+  "languageSwitcher": {
+    "en": "Inglés",
+    "es": "Español"
+  }
+} 
