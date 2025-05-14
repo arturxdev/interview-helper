@@ -69,7 +69,12 @@
   },
   "practice": {
     "startPractice": "Comenzar Práctica",
-    "comingSoon": "Próximamente"
+    "comingSoon": "Próximamente",
+    "explanation": "Explicación",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "submit": "Enviar Respuesta",
+    "seeResults": "Ver Resultados"
   },
   "back": {
     "home": "Volver a Inicio",

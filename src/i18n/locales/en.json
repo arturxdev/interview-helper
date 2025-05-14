@@ -69,7 +69,12 @@
   },
   "practice": {
     "startPractice": "Start Practice",
-    "comingSoon": "Coming Soon"
+    "comingSoon": "Coming Soon",
+    "explanation": "Explanation",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit Answer",
+    "seeResults": "See Results"
   },
   "back": {
     "home": "Back to Home",

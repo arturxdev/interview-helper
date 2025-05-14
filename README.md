@@ -2,7 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, set up your environment variables:
+
+1. Create a `.env.local` file in the root directory
+2. Add your MongoDB connection string:
+
+```
+MONGODB_URI=mongodb://localhost:27017/interview-helper
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -19,6 +28,25 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Database Setup
+
+This project uses MongoDB to store questions. You can:
+
+1. Use a local MongoDB instance
+2. Use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) for a cloud-hosted database
+
+### Seeding the Database
+
+To seed the database with initial questions:
+
+```bash
+npx ts-node -r tsconfig-paths/register src/scripts/seedQuestions.ts
+```
+
+## Admin Interface
+
+The admin interface for managing questions is available at `/admin/questions`.
 
 ## Learn More
 

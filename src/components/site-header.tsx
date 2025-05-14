@@ -24,6 +24,12 @@ export function SiteHeader() {
         </Link>
       </div>
       <div className="flex items-center gap-4">
+        {/* <Link
+          href="/admin/questions"
+          className="text-gray-600 hover:text-gray-900 text-sm"
+        >
+          Admin
+        </Link> */}
         <LanguageSwitcher />
         <Button asChild className="bg-blue-600 hover:bg-blue-700">
           <Link href="/topics">{t("header.topics")}</Link>
