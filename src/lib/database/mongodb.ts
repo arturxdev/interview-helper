@@ -15,12 +15,11 @@ if (!MONGODB_URI) {
  * in development. This prevents connections growing exponentially
  * during API Route usage.
  */
-// @ts-ignore
+// @ts-expect-error - global mongoose type is not defined in TypeScript
 let cached = global.mongoose;
 
-// @ts-ignore
 if (!cached) {
-  // @ts-ignore
+  // @ts-expect-error - global mongoose type is not defined in TypeScript
   cached = global.mongoose = { conn: null, promise: null };
 }
 

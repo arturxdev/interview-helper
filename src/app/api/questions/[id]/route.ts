@@ -5,10 +5,10 @@ import Question from "@/lib/database/models/Question";
 // GET a single question by ID
 export async function GET(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id } = params;
+    const { id } = await params;
 
     await dbConnect();
     const question = await Question.findOne({ id });
@@ -36,10 +36,10 @@ export async function GET(
 // PUT - update a question
 export async function PUT(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id } = params;
+    const { id } = await params;
     const body = await req.json();
 
     await dbConnect();
@@ -73,10 +73,10 @@ export async function PUT(
 // DELETE - delete a question
 export async function DELETE(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id } = params;
+    const { id } = await params;
 
     await dbConnect();
 

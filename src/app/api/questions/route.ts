@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import dbConnect from "@/lib/database/mongodb";
-import Question, { IQuestion } from "@/lib/database/models/Question";
+import Question from "@/lib/database/models/Question";
 
 // GET all questions - can filter by topic, difficulty, type
 export async function GET(req: NextRequest) {

@@ -1,9 +1,9 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import dbConnect from "@/lib/database/mongodb";
 import Topic from "@/lib/database/models/Topic";
 
 // GET all topics
-export async function GET(req: NextRequest) {
+export async function GET() {
   try {
     await dbConnect();
     const topics = await Topic.find({}).sort({ id: 1 });

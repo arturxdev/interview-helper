@@ -20,7 +20,7 @@ interface Question {
 }
 
 export default function QuestionsAdminPage() {
-  const { language, t } = useLanguage();
+  const { language } = useLanguage();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
